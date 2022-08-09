@@ -1,0 +1,107 @@
+.body {
+  background-color: transparent;
+  background-image: url('../images/bgtile.png');
+  background-position: 50% 100%;
+  background-size: auto;
+}
+
+.section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.image {
+  max-width: 80%;
+  min-width: 80%;
+  margin-top: 5%;
+}
+
+.paragraph {
+  margin-right: 10%;
+  margin-left: 10%;
+  font-family: 'Mini wakuwaku maru', sans-serif;
+  color: #fff;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.button {
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 11px;
+  background-color: #db8acf;
+  font-family: 'Mini wakuwaku maru', sans-serif;
+}
+
+.div-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 54px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 479px) {
+  .image {
+    margin-top: 16%;
+    padding-bottom: 35px;
+  }
+
+  .button {
+    margin-top: 32px;
+  }
+
+  .div-block {
+    margin-bottom: 0px;
+    padding-bottom: 104px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@font-face {
+  font-family: 'Mini wakuwaku maru';
+  src: url('../fonts/mini-wakuwaku-maru.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Mini wakuwaku';
+  src: url('../fonts/mini-wakuwaku.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
